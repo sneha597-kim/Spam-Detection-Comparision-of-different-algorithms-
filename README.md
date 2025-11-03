@@ -1,7 +1,4 @@
-# Spam-Detection-Comparision-of-different-algorithms-
-A spam Detection model that detects the spam messages very accurately and this is basically a comparision between various models with their evaluation metrics like accuracy,precision,recall and f1-score
-
-##Spam Email Detection using Machine Learning
+# Spam Email Detection using Machine Learning
 
 🧠 Overview
 
@@ -20,7 +17,7 @@ Matplotlib, Seaborn for visualization
 
 🧩 Workflow
 
-Data cleaning (lowercase, remove stopwords & punctuation)
+*Data cleaning (lowercase, remove stopwords & punctuation)
 
 TF-IDF feature extraction
 
@@ -32,7 +29,7 @@ Confusion matrix visualization
 
 📊 Results
 
-##Model	Accuracy
+# Model	Accuracy
 
 Naive Bayes	0.977
 
