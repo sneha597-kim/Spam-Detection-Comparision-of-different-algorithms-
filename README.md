@@ -6,19 +6,24 @@ It leverages the SMSSpamCollection dataset, performs text preprocessing with NLT
 
 ⚙️ **Tech Stack**
 
-Tool	                  Purpose
-🐍 Python	              Programming language
-📊 Pandas, NumPy	      Data handling
-🧹 NLTK	                Text preprocessing
-🤖 Scikit-learn	        Machine learning & evaluation
-🎨 Matplotlib, Seaborn	Data visualization
+| Model                      | Accuracy |
+| -------------------------- | -------- |
+| 🧮 **Naive Bayes**         | 0.977    |
+| ⚙️ **Logistic Regression** | 0.982    |
+| 💡 **SVM**                 | 0.986    |
+| 🌲 **Random Forest**       | 0.975    |
+
 
 🔄 **Workflow**
 
 1️⃣ Data Cleaning → Convert to lowercase, remove punctuation & stopwords
+
 2️⃣ Feature Extraction → Convert text into numerical vectors using TF-IDF
+
 3️⃣ Model Training → Train models like Naive Bayes, Logistic Regression, SVM, and Random Forest
+
 4️⃣ Evaluation → Compare models using Accuracy, Precision, Recall, and F1-Score
+
 5️⃣ Result Analysis → Visualize confusion matrices and compare performance
 
 📊 **Model Performance**
