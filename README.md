@@ -1,40 +1,47 @@
 # Spam Email Detection using Machine Learning
-
 🧠 **Overview**
 
-A machine learning project to classify SMS/email messages as Spam or Ham (Not Spam) using the SMSSpamCollection dataset.
-Text data is cleaned, converted to numerical form using TF-IDF, and multiple models are compared for accuracy.
+This project detects whether an SMS or email is Spam or Ham (Not Spam) using various Machine Learning algorithms.
+It leverages the SMSSpamCollection dataset, performs text preprocessing with NLTK, and uses TF-IDF Vectorization for feature extraction.
 
 ⚙️ **Tech Stack**
 
-Python, Pandas, NumPy
+Tool	                  Purpose
+🐍 Python	              Programming language
+📊 Pandas, NumPy	      Data handling
+🧹 NLTK	                Text preprocessing
+🤖 Scikit-learn	        Machine learning & evaluation
+🎨 Matplotlib, Seaborn	Data visualization
 
-NLTK for text preprocessing
+🔄 **Workflow**
 
-Scikit-learn for ML models and evaluation
+1️⃣ Data Cleaning → Convert to lowercase, remove punctuation & stopwords
+2️⃣ Feature Extraction → Convert text into numerical vectors using TF-IDF
+3️⃣ Model Training → Train models like Naive Bayes, Logistic Regression, SVM, and Random Forest
+4️⃣ Evaluation → Compare models using Accuracy, Precision, Recall, and F1-Score
+5️⃣ Result Analysis → Visualize confusion matrices and compare performance
 
-Matplotlib, Seaborn for visualization
+📊 **Model Performance**
+Model                     Accuracy
+🧮 Naive Bayes	             0.977
+⚙️ Logistic Regression	     0.982
+💡 SVM	                     0.986
+🌲 Random Forest	           0.975
 
-🧩 **Workflow**
+🧾 **Evaluation Metrics**
 
-*Data cleaning (lowercase, remove stopwords & punctuation)
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
 
-TF-IDF feature extraction
+Precision = TP / (TP + FP)
 
-Model training – Naive Bayes, Logistic Regression, SVM, Random Forest, etc.
+Recall = TP / (TP + FN)
 
-Evaluation using Accuracy, Precision, Recall, F1-score
+F1-Score = 2 × (Precision × Recall) / (Precision + Recall)
 
-Confusion matrix visualization
+🌟 **Future Improvements**
 
-📊 **Results**
+-Integrate Deep Learning models like LSTM or BERT
 
-**Model	Accuracy**
+-Develop a Streamlit or Flask Web App for real-time detection
 
-Naive Bayes	0.977
-
-Logistic Regression	0.982
-
-SVM	0.986
-
-Random Forest	0.975
+-Deploy as an API for email platforms
