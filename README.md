@@ -1,11 +1,11 @@
 # Spam Email Detection using Machine Learning
 
-🧠 Overview
+🧠 **Overview**
 
 A machine learning project to classify SMS/email messages as Spam or Ham (Not Spam) using the SMSSpamCollection dataset.
 Text data is cleaned, converted to numerical form using TF-IDF, and multiple models are compared for accuracy.
 
-⚙️ Tech Stack
+⚙️ **Tech Stack**
 
 Python, Pandas, NumPy
 
@@ -15,7 +15,7 @@ Scikit-learn for ML models and evaluation
 
 Matplotlib, Seaborn for visualization
 
-🧩 Workflow
+🧩 **Workflow**
 
 *Data cleaning (lowercase, remove stopwords & punctuation)
 
@@ -27,9 +27,9 @@ Evaluation using Accuracy, Precision, Recall, F1-score
 
 Confusion matrix visualization
 
-📊 Results
+📊 **Results**
 
-# Model	Accuracy
+**Model	Accuracy**
 
 Naive Bayes	0.977
 
