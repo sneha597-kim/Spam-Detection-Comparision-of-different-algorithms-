@@ -27,11 +27,15 @@ It leverages the SMSSpamCollection dataset, performs text preprocessing with NLT
 5️⃣ Result Analysis → Visualize confusion matrices and compare performance
 
 📊 **Model Performance**
-Model                     Accuracy
-🧮 Naive Bayes	             0.977
-⚙️ Logistic Regression	     0.982
-💡 SVM	                     0.986
-🌲 Random Forest	           0.975
+| Model                   | Accuracy | Remarks                            |
+| -------------------     | -------- | ---------------------------------- |
+| **Naive Bayes**         | 0.977    | Excellent baseline                 |
+| **Logistic Regression** | 0.982    | High precision                     |
+| **SVM**                 | 0.986    | Best performance                   |
+| **Random Forest**       | 0.975    | Stable but slower                  |
+| **Decision Tree**       | 0.940    | Overfits slightly                  |
+| **KNN**                 | 0.910    | Lower accuracy, not ideal for text |
+
 
 🧾 **Evaluation Metrics**
 
