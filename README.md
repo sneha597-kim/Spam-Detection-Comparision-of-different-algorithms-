@@ -1,7 +1,8 @@
 # Spam-Detection-Comparision-of-different-algorithms-
 A spam Detection model that detects the spam messages very accurately and this is basically a comparision between various models with their evaluation metrics like accuracy,precision,recall and f1-score
 
-📧 Spam Email Detection using Machine Learning
+##Spam Email Detection using Machine Learning
+
 🧠 Overview
 
 A machine learning project to classify SMS/email messages as Spam or Ham (Not Spam) using the SMSSpamCollection dataset.
@@ -30,8 +31,13 @@ Evaluation using Accuracy, Precision, Recall, F1-score
 Confusion matrix visualization
 
 📊 Results
-Model	Accuracy
+
+##Model	Accuracy
+
 Naive Bayes	0.977
+
 Logistic Regression	0.982
+
 SVM	0.986
+
 Random Forest	0.975
