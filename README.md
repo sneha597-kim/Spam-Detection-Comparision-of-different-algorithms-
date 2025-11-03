@@ -6,12 +6,14 @@ It leverages the SMSSpamCollection dataset, performs text preprocessing with NLT
 
 ⚙️ **Tech Stack**
 
-| Model                      | Accuracy |
-| -------------------------- | -------- |
-| 🧮 **Naive Bayes**         | 0.977    |
-| ⚙️ **Logistic Regression** | 0.982    |
-| 💡 **SVM**                 | 0.986    |
-| 🌲 **Random Forest**       | 0.975    |
+| Tool                       | Purpose                       |
+| -------------------------- | ----------------------------- |
+| 🐍 **Python**              | Programming language          |
+| 📊 **Pandas, NumPy**       | Data handling                 |
+| 🧹 **NLTK**                | Text preprocessing            |
+| 🤖 **Scikit-learn**        | Machine learning & evaluation |
+| 🎨 **Matplotlib, Seaborn** | Data visualization            |
+
 
 
 🔄 **Workflow**
@@ -39,13 +41,13 @@ It leverages the SMSSpamCollection dataset, performs text preprocessing with NLT
 
 🧾 **Evaluation Metrics**
 
-Accuracy = (TP + TN) / (TP + TN + FP + FN)
+-Accuracy = (TP + TN) / (TP + TN + FP + FN)
 
-Precision = TP / (TP + FP)
+-Precision = TP / (TP + FP)
 
-Recall = TP / (TP + FN)
+-Recall = TP / (TP + FN)
 
-F1-Score = 2 × (Precision × Recall) / (Precision + Recall)
+-F1-Score = 2 × (Precision × Recall) / (Precision + Recall)
 
 🌟 **Future Improvements**
 
